@@ -42,27 +42,27 @@ const SKILLS = {
 
 const PROJECTS = [
   {
+    title: "Real Estate Portal",
+    period: "Nov 2025 – Apr 2026",
+    tech: ["React", "JavaScript","Vite", "Node.js","Express","PostgreSQL", "HTML", "Tailwind CSS","Axios", "React Router"],
+    desc: "Real Estate Portal is a full-stack web application for discovering, listing, and managing properties with a modern React frontend and Express backend. It supports user authentication, detailed property pages, favorites, and profile management for a personalized experience.",
+    github: "https://github.com/Aditya-255/Real_Estate_Portal",
+    featured: true,
+  },
+  {
     title: "Employee Task Organizer",
     period: "Nov 2025 – Jan 2026",
-    tech: ["React", "JavaScript", "Node.js", "HTML", "CSS", "Git"],
+    tech: ["React", "JavaScript", "Node.js", "HTML", "Tailwind CSS", "Git"],
     desc: "Role-based task management system where admins assign tasks with deadlines and employees can negotiate timelines through a collaborative workflow.",
-    github: "https://github.com/Aditya-255",
-    featured: true,
+    github: "https://github.com/Aditya-255/Employee_Task_Dashboard",
+    featured: false,
   },
   {
     title: "Car Rental Application",
     period: "July 2025 – Dec 2025",
     tech: ["Flutter", "Firebase"],
     desc: "Mobile app with Firebase auth, vehicle listing, booking workflow, and a full management dashboard for fleet owners.",
-    github: "https://github.com/Aditya-255",
-    featured: false,
-  },
-  {
-    title: "Hotel Room Booking System",
-    period: "Dec 2024 – May 2025",
-    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    desc: "Full-stack web app with secure auth, role-based access control, and a comprehensive admin panel for hotel management.",
-    github: "https://github.com/Aditya-255/Hotel_Booking_Website_PHP",
+    github: "https://github.com/Aditya-255/Car_Rental_App",
     featured: false,
   },
 ];
